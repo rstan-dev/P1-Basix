@@ -14,5 +14,15 @@ header {
     height: 70px;
     width: auto;
     margin: 10px 0 0 10px;
+    float: left;
 }
 
+#menu {
+    float: right;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
+}
