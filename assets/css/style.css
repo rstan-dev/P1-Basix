@@ -20,7 +20,7 @@ body {
 #logo {
     height: 60px;
     width: auto;
-    margin: 10px 0 0 10px;
+    margin: 10px 0 0 20px;
     float: left;
 }
 
@@ -37,8 +37,8 @@ body {
 
 hr {
     border-top: 1px solid #2b7d00;
-    width: 100%;
-    margin: 5px 0;
+    width: 95%;
+    margin: 0 auto;
 }
 
 #menu, #logo {
