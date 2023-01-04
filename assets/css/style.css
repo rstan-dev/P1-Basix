@@ -16,12 +16,13 @@ body {
 
 /* Header & Nav Section */
 
-header {
+#header {
     position: fixed;
     width: 100%;
     top: 0;
-    overflow: hidden;
+    left: 0;
     background-color: white;
+    z-index: 2;
 }
 
 #logo {
@@ -62,19 +63,38 @@ hr {
 }
 
 /* Hero Section */
+#hero-section {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+        
+}
 
 #hero-image {
-   height: 600px ;
+   height: 600px;
    width: 100%;  
    background: url("../images/hero-image-home2.jpg") no-repeat center center;
-   margin-top: 20px;   
+   margin-top: 80px;
+   overflow: hidden;
+    
 }
 
 #hero-image-overlay-text {
     background-color: rgba(43,125,0,0.6);
     width: 400px;
-    height: 200px;
+    height: 100px;
     color: white;
     font-size: 90%;
-    
+
+    padding: 10px;
+    bottom: 30px;
+    right: 75px; 
+    position: absolute;   
+}
+
+#list-overlay {
+    margin-left: 30px;
+    font-size: 110%;
 }
