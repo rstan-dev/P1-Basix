@@ -22,8 +22,8 @@ header {
     top: 0;
     overflow: hidden;
     background-color: white;
-
 }
+
 #logo {
     height: 60px;
     width: auto;
@@ -32,8 +32,7 @@ header {
 }
 
 #menu {
-    float: right;
-    
+    float: right; 
 }
 
 #menu li {
@@ -62,12 +61,20 @@ hr {
     color: white
 }
 
+/* Hero Section */
 
 #hero-image {
    height: 600px ;
    width: 100%;  
    background: url("../images/hero-image-home2.jpg") no-repeat center center;
-   margin-top: 20px;
-   
+   margin-top: 20px;   
+}
+
+#hero-image-overlay-text {
+    background-color: rgba(43,125,0,0.6);
+    width: 400px;
+    height: 200px;
+    color: white;
+    font-size: 90%;
     
 }
