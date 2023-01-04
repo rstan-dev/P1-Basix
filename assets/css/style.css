@@ -108,7 +108,7 @@ hr {
     }
 
 #three-choices {
-    margin 30px 0 30px 0;
+    margin: 30px 0 30px 0;
     font-size: 250%;
     text-align: center;
     text-transform: uppercase;
@@ -142,4 +142,12 @@ hr {
     width: 30%;
     height: 1100px;
     margin: 0 2% 0 2%;
+    }
+
+    /*  Kigelia Product Section  */
+
+    #kigelia-image {
+        background-image: url("../images/kigelia-box.jpg");
+        height: 100%;
+        width: auto;
     }
