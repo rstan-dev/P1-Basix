@@ -16,7 +16,14 @@ body {
 
 /* Header & Nav Section */
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    background-color: white;
 
+}
 #logo {
     height: 60px;
     width: auto;
@@ -53,4 +60,14 @@ hr {
 #menu a:hover {
     background-color: #2b7d00;
     color: white
+}
+
+
+#hero-image {
+   height: 600px ;
+   width: 100%;  
+   background: url("../images/hero-image-home2.jpg") no-repeat center center;
+   margin-top: 20px;
+   
+    
 }
