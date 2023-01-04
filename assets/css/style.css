@@ -121,4 +121,25 @@ hr {
     border-color: #2b7d00;
     width: 30%;
     height: 1100px;
+    margin-left: 2%;
 }
+
+#tissue-oil {
+    float: right;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2b7d00;
+    width: 30%;
+    height: 1100px;
+    margin-right: 2%
+}
+
+#foot-food {
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #2b7d00;
+    width: 30%;
+    height: 1100px;
+    margin: 0 2% 0 2%;
+    }
