@@ -165,7 +165,7 @@ hr {
         height: 50%;
         text-align: center;
         font-size: 90%;
-        margin: 0 0 15px 0;
+        margin: 0 0 30px 0;
         overflow: auto;
     }
 
@@ -226,7 +226,7 @@ hr {
         height: 50%;
         text-align: center;
         font-size: 90%;
-        margin: 0 0 15px 0;
+        margin: 0 0 30px 0;
         overflow: auto;
     }
 
@@ -262,6 +262,66 @@ hr {
     }
 
     #foot-food-button:hover {
+        background-color: #2b7d00;
+        color: white
+    }
+
+    /*  Tissue Oil Product Section  */
+
+    #tissue-oil-image-container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #tissue-oil-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        scale: 80%;
+
+    }
+
+    #tissue-oil-text {
+        height: 50%;
+        text-align: center;
+        font-size: 90%;
+        margin: 0 0 30px 0;
+        overflow: auto;
+    }
+
+    #tissue-oil-text h3, h4 {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin-right: 10px;
+    }
+
+    #tissue-oil-text-list {
+        margin: 0 10px 20px 20px;
+        text-align: left;
+        list-style-type: none;
+
+    }
+
+    #tissue-oil-text-list > li {
+        padding-bottom: 5px;
+
+    }
+
+    #tissue-oil-button-container {
+        margin-top: 20px;
+        height: 10%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #tissue-oil-button {
+        padding: 10px 40px;
+        background-color: #ff9f3f;
+        border-radius: 30px;
+    }
+
+    #tissue-oil-button:hover {
         background-color: #2b7d00;
         color: white
     }
