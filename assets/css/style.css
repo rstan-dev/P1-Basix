@@ -204,3 +204,64 @@ hr {
         background-color: #2b7d00;
         color: white
     }
+
+
+     /*  Foot Food Product Section  */
+
+     #foot-food-image-container {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    #foot-food-image {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        scale: 80%;
+
+    }
+
+    #foot-food-text {
+        height: 50%;
+        text-align: center;
+        font-size: 90%;
+        margin: 0 0 15px 0;
+        overflow: auto;
+    }
+
+    #foot-food-text h3, h4 {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin-right: 10px;
+    }
+
+    #foot-food-text-list {
+        margin: 0 10px 20px 20px;
+        text-align: left;
+        list-style-type: none;
+
+    }
+
+    #foot-food-text-list > li {
+        padding-bottom: 5px;
+
+    }
+
+    #foot-food-button-container {
+        margin-top: 20px;
+        height: 10%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #foot-food-button {
+        padding: 10px 40px;
+        background-color: #ff9f3f;
+        border-radius: 30px;
+    }
+
+    #foot-food-button:hover {
+        background-color: #2b7d00;
+        color: white
+    }
