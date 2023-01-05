@@ -120,8 +120,9 @@ hr {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1100px;
+    height: 1200px;
     margin-left: 2%;
+    
 }
 
 #tissue-oil {
@@ -130,7 +131,7 @@ hr {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1100px;
+    height: 1200px;
     margin-right: 2%
 }
 
@@ -140,7 +141,7 @@ hr {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1100px;
+    height: 1200px;
     margin: 0 2% 0 2%;
     }
 
@@ -148,22 +149,23 @@ hr {
 
     #kigelia-image-container {
         width: 90%;
-        height: 30%;
+        height: auto;
+        margin: 0 auto;
     }
 
     #kigelia-image {
         max-width: 100%;
         height: auto;
-        align-items: center;
-        scale: 75%;
+        margin: 0 auto;
+        scale: 80%;
 
     }
 
     #kigelia-text {
-        height: 60%;
+        height: 50%;
         text-align: center;
         font-size: 90%;
-        margin: 15px 0 15px 0;
+        margin: 0 0 15px 0;
         overflow: auto;
     }
 
@@ -186,7 +188,7 @@ hr {
     }
 
     #kigelia-button-container {
-        margin-top: 30px;
+        margin-top: 20px;
         height: 10%;
         width: 100%;
         text-align: center;
