@@ -149,18 +149,48 @@ hr {
     #kigelia-image-container {
         width: 90%;
         height: 30%;
-        
     }
 
     #kigelia-text {
         height: 60%;
         text-align: center;
-        overflow: auto;
         font-size: 90%;
+        margin: 15px 0 15px 0;
+        overflow: auto;
+    }
+
+    #kigelia-text h3, h4 {
+        padding-top: 5px;
+        padding-bottom: 15px;
+        margin-right: 10px;
     }
 
     #kigelia-text-list {
-        margin: 20px 30px 20px 30px;
+        margin: 0 10px 20px 20px;
         text-align: left;
+        list-style-type: none;
 
+    }
+
+    #kigelia-text-list > li {
+        padding-bottom: 5px;
+
+    }
+
+    #kigelia-button-container {
+        margin-top: 30px;
+        height: 10%;
+        width: 100%;
+        text-align: center;
+    }
+
+    #kigelia-button {
+        padding: 10px 40px;
+        background-color: #ff9f3f;
+        border-radius: 30px;
+    }
+
+    #kigelia-button:hover {
+        background-color: #2b7d00;
+        color: white
     }
