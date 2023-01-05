@@ -146,8 +146,21 @@ hr {
 
     /*  Kigelia Product Section  */
 
-    #kigelia-image {
-        background-image: url("../images/kigelia-box.jpg");
-        height: 100%;
-        width: auto;
+    #kigelia-image-container {
+        width: 90%;
+        height: 30%;
+        
+    }
+
+    #kigelia-text {
+        height: 60%;
+        text-align: center;
+        overflow: auto;
+        font-size: 90%;
+    }
+
+    #kigelia-text-list {
+        margin: 20px 30px 20px 30px;
+        text-align: left;
+
     }
