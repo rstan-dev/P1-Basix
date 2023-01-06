@@ -76,9 +76,10 @@ hr {
 #hero-image {
    height: 600px;
    width: 100%;  
-   background: url("../images/hero-image-home2.jpg") no-repeat center center;
+   background: url("../images/hero-image-home5.jpg") no-repeat center center;
    margin-top: 80px;
    overflow: hidden;
+   position: relative;
     
 }
 
@@ -90,9 +91,10 @@ hr {
     font-size: 90%;
 
     padding: 10px;
-    bottom: 30px;
-    right: 75px; 
-    position: absolute;   
+    bottom: 150px;
+    right: 150px;
+    position: absolute;
+    
 }
 
 #list-overlay {
@@ -103,8 +105,9 @@ hr {
 /* Product Section */
 
 #product-section {
-    width: 100%;
+    width: 1500px;
     height: 1200px;
+    margin: 0 auto;
     }
 
 #three-choices {
@@ -356,7 +359,7 @@ hr {
 
     /* Media Queries */
 
-    /* Screen size <1200 px wide */
+    /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
     #product-section {
         width: 90%;
@@ -377,7 +380,6 @@ hr {
         padding: 0;
         margin: 10px 0 20px 0;
     }
-
-
     }
-        
+    
+     /* Screen size <1200 px wide */
