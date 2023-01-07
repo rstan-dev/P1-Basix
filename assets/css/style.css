@@ -391,6 +391,24 @@ hr {
     /* About Us */
     #about-us h2 {
         margin-bottom: 10px;
+        font-size: 200%;
+    }
+
+    #about-us p {
+        margin-bottom: 15px;
+    }
+
+    #why-basix {
+        margin-top: 40px;
+    }
+
+    #why-basix h2 {
+        margin-bottom: 10px;
+        font-size: 200%;
+    }
+
+    #why-basix p {
+        margin-bottom: 15px;
     }
 
 
