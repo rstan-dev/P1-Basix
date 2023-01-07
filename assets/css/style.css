@@ -432,6 +432,15 @@ hr {
         bottom: 0;
 
      }
+
+     #menu {
+        clear: left;      /*  drops the menu items to a new line  */
+        float: left;
+        margin: 20px 0 20px 30px;
+        line-height: 25px;
+       }
+
+
     }
 
     /* Screen size <400 px wide */
