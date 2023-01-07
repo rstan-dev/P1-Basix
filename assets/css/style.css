@@ -177,7 +177,7 @@ hr {
     #kigelia-text {
         height: 50%;
         text-align: center;
-        font-size: 90%;
+        font-size: 100%;
         margin: 0 0 30px 0;
         overflow: auto;
     }
@@ -185,7 +185,7 @@ hr {
     #kigelia-text h3, h4 {
         padding-top: 5px;
         padding-bottom: 15px;
-        margin-right: 10px;
+        margin: 0 10px 20px 20px;
     }
 
     #kigelia-text-list {
@@ -196,7 +196,7 @@ hr {
     }
 
     #kigelia-text-list > li {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
 
     }
 
@@ -239,7 +239,7 @@ hr {
     #foot-food-text {
         height: 50%;
         text-align: center;
-        font-size: 90%;
+        font-size: 100%;
         margin: 0 0 30px 0;
         overflow: auto;
     }
@@ -247,7 +247,7 @@ hr {
     #foot-food-text h3, h4 {
         padding-top: 5px;
         padding-bottom: 15px;
-        margin-right: 10px;
+        margin: 0 10px 20px 20px;
     }
 
     #foot-food-text-list {
@@ -258,7 +258,7 @@ hr {
     }
 
     #foot-food-text-list > li {
-        padding-bottom: 5px;
+        padding-bottom: 15px;
 
     }
 
@@ -300,7 +300,7 @@ hr {
     #tissue-oil-text {
         height: 50%;
         text-align: center;
-        font-size: 90%;
+        font-size: 100%;
         margin: 0 0 30px 0;
         overflow: auto;
     }
@@ -308,18 +308,18 @@ hr {
     #tissue-oil-text h3, h4 {
         padding-top: 5px;
         padding-bottom: 15px;
-        margin-right: 10px;
+        margin: 0 10px 20px 20px;
     }
 
     #tissue-oil-text-list {
-        margin: 0 10px 20px 20px;
+        margin: 0 10px 30px 20px;
         text-align: left;
         list-style-type: none;
 
     }
 
     #tissue-oil-text-list > li {
-        padding-bottom: 5px;
+        padding-bottom: 10px;
 
     }
 
@@ -415,6 +415,10 @@ hr {
         display: inline-block;
         padding: 0;
         margin-top: 10px;
+    }
+
+    #tissue-oil {
+        margin-bottom: 50px;
     }
 
    
