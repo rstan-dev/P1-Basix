@@ -22,11 +22,11 @@
             <nav id="menu">
                 <ul>
                     <li>
-                        <a href="contact.html">CONTACT</a>
+                        <a href="contact.html" class="active">CONTACT</a>
                     </li>
                 
                     <li>
-                        <a href="about.html" class="active">ABOUT</a>
+                        <a href="about.html">ABOUT</a>
                     </li>
                     <li>
                      <a href="index.html">HOME</a>
@@ -40,57 +40,26 @@
     <!-- Hero image section -->
     <section id="hero-section">
         <div id="hero-image">
-            <div id="hero-image-overlay-text">
-                <h1 id="h1-overlay">Why we do what we do:</h1>
-                    <ul id="list-overlay">
-                        <li>Passionate about healthy living</li>
-                        <li>Passionate about natural products</li>
-                        <li>Passionate about having good skin</li>
-                    </ul>
+            <div>
+                <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+                    <h2>Want to get in touch with us?<i class="fas fa-heartbeat"></i></h2>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
+                    
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
+                    
+                    <label for="email">Email Address</label>
+                    <input class="text-input" type="email" id="email" name="email_address" required>
+                    
+                    <input class="join-button" type="submit" value="SEND">
+                </form>
 
             </div>
         </div>
     </section>
 
-    <!-- About & Why Basix Section  -->
-    <section id="about-section">
-        <div id="about-us">
-            <h2>About Us</h2>
-            <p>
-                We discovered Basix during our time living in South Africa.  Prone to eczema and with a family history of Psoriasis, 
-                we couldn't be without our cream, and when we moved back to England, we realized we had a 
-                <span style="font-weight: bold; text-decoration: underline;">Social Responsibility</span> to make this cream available to the rest of the world.
-            </p>
-
-            <p>
-                We started Lombardi & Smith Limited, and with one mission, we embarked on a long journey to ensure the cream was compliant 
-                to distribute in the United Kingdom and the European Union.
-            </p>
         
-            <p>
-            Working closely with our South African partners, our mission is to change the lives of those suffering with Eczema, Psoriasis 
-            and Dermatitis - ACROSS THE WORLD.
-            </p>
-        </div>
-
-        <div id="why-basix">
-            <h2>Why Basix?</h2>
-            <p>
-                Basix Skin Repair Cream was inspired 10 years ago in South Africa in order to address several skin problems with a natural 
-                alternative cream.  
-                
-            <p>
-                Refined over 2 years, the formulation uses a combination of 11 natural active ingredients that targets 
-                the cause of seriously dry skin, helping to restore and repair and moisturize.
-            </p>
-                
-            <p>
-                This cream can be particularly effective for 
-                those suffering with Eczema, Psoriasis and Dermatitis
-            </p>
-        </div>
-    </section>
-  
     <!-- Footer Section  -->
     <footer>
         <hr id="footer-hr">
