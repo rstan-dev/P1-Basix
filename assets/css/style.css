@@ -144,7 +144,7 @@ hr {
     border-color: #2b7d00;
     width: 30%;
     height: 1200px;
-    margin-right: 2%
+    margin-left: 2%;
 }
 
 #foot-food {
@@ -405,24 +405,19 @@ hr {
     }
        
     #product-section {
-        width: 90%;
+        width: 60%;
         height: 1200px;
         margin: 0 auto;
     }
 
-    #kigelia, #foot-food {
+    #kigelia, #foot-food, #tissue-oil {
         width: 100%;
-        float: left;
+        display: inline-block;
         padding: 0;
         margin-top: 10px;
     }
 
-    #tissue-oil {
-        width: 100%;
-        float: left;
-        padding: 0;
-        margin: 10px 0 20px 0;
-    }
+   
     }
     
      /* Screen size <750 px wide */
