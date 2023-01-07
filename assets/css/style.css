@@ -79,8 +79,7 @@ hr {
    background: url("../images/hero-image-home5.jpg") no-repeat center center;
    margin-top: 80px;
    overflow: hidden;
-   position: relative;
-    
+       
 }
 
 #hero-image-overlay-text {
@@ -129,7 +128,7 @@ hr {
 }
 
 #tissue-oil {
-    float: right;
+    float: left;
     border-width: 1px;
     border-style: solid;
     border-color: #2b7d00;
@@ -358,6 +357,21 @@ hr {
     }
 
     /* Media Queries */
+
+    /* Screen size >1500 px wide */
+    
+    @media screen and (min-width: 1500px) {
+             
+        #hero-section {
+            width: 1500px;
+            position: relative;
+            margin: 0 auto;                      
+        }
+        
+        #hero-image {
+            width: 1500px;              
+        } 
+    }
 
     /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
