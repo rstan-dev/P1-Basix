@@ -19,7 +19,7 @@ body {
 
 /* Header & Nav Section */
 
-#header {
+header {
     position: fixed;
     width: 100%;
     max-width: 1500px;
@@ -163,13 +163,14 @@ hr {
         width: 90%;
         height: auto;
         margin: 0 auto;
+        display: flex;
     }
 
     #kigelia-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        scale: 80%;
+        scale: 90%;
 
     }
 
@@ -221,17 +222,18 @@ hr {
      /*  Foot Food Product Section  */
 
      #foot-food-image-container {
-        width: 90%;
+        width: 100%;
         height: auto;
         margin: 0 auto;
+        display: flex;
     }
 
     #foot-food-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        scale: 80%;
-
+        scale: 90%;
+        
     }
 
     #foot-food-text {
@@ -284,13 +286,14 @@ hr {
         width: 90%;
         height: auto;
         margin: 0 auto;
+        display: flex;
     }
 
     #tissue-oil-image {
         max-width: 100%;
         height: auto;
         margin: 0 auto;
-        scale: 80%;
+        scale: 90%;
 
     }
 
@@ -340,9 +343,11 @@ hr {
 
     /* Footer Section */
 
-    footer {
+   footer {
         height: 75px;
-        margin-top: 100px;
+        width: 100%;
+        max-width: 1500px;
+        margin-top: 150px;
     }
 
     footer h3 {
