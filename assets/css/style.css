@@ -413,7 +413,7 @@ hr {
 
     /* Form */
 
-.signup-form {
+.contact-form {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(43,125,0,0.6);  /* opaque background color */
@@ -425,7 +425,7 @@ hr {
     
 }
 
-.signup-form h2 {
+.contact-form h2 {
     color:#fff;
     margin-bottom: 20px;
 }
@@ -445,7 +445,7 @@ hr {
     border-color: black;
 }
 
-.join-button {
+.send-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -453,11 +453,28 @@ hr {
     font-size: 100%;
     background-color: white;
     color: #2b7d00;
-    display: block;   /* drops the button below the text */
+    display: inline;   /* drops the button below the text */
 
 }
 
-.join-button:hover {
+.reset-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: white;
+    color: #2b7d00;
+    display: inline;   /* drops the button below the text */
+
+}
+
+.send-button:hover {
+    background-color: #fafafa;
+    color: black;
+}
+
+.reset-button:hover {
     background-color: #fafafa;
     color: black;
 }
