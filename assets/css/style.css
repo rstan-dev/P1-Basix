@@ -472,11 +472,13 @@ hr {
 .send-button:hover {
     background-color: #fafafa;
     color: black;
+    font-weight: 520;
 }
 
 .reset-button:hover {
     background-color: #fafafa;
     color: black;
+    font-weight: 520;
 }
 
 #email {
