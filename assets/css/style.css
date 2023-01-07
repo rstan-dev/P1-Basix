@@ -53,7 +53,7 @@ header {
 
 hr {
     border-top: 1px solid #2b7d00;
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -69,6 +69,10 @@ hr {
 #menu a:hover {
     background-color: #2b7d00;
     color: white
+}
+
+.active {
+    border-bottom: 1px solid #2b7d00;
 }
 
 /* Hero Section */
@@ -350,6 +354,11 @@ hr {
         margin-top: 150px;
     }
 
+    #footer-hr {
+        margin-left: -50%;
+        width: 200%;
+    }
+
     footer h3 {
         text-align: center;
         margin-top: 30px;
@@ -370,6 +379,21 @@ hr {
         color: #2b7d00;
         
     }
+
+    /* About Page */
+
+    #about-section {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* About Us */
+    #about-us h2 {
+        margin-bottom: 10px;
+    }
+
+
 
     /* Media Queries */
 
