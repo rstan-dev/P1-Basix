@@ -390,6 +390,20 @@ hr {
 
     /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
+    
+    #hero-image-overlay-text {
+        background-color: rgba(43,125,0,0.6);
+        width: 400px;
+        height: 100px;
+        color: white;
+        font-size: 90%;
+    
+        padding: 10px;
+        
+        margin: 0 auto;
+        
+    }
+       
     #product-section {
         width: 90%;
         height: 1200px;
@@ -411,4 +425,22 @@ hr {
     }
     }
     
-     /* Screen size <1200 px wide */
+     /* Screen size <750 px wide */
+     @media screen and (max-width: 750px) {
+     #hero-image-overlay-text {
+        left: 0;
+        bottom: 0;
+
+     }
+    }
+
+    /* Screen size <400 px wide */
+     @media screen and (max-width: 400px) {
+     #hero-image-overlay-text {
+        left: 0;
+        bottom: 0;
+        width:100%;
+        font-size: 75%;
+
+     }
+    }
