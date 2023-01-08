@@ -2,6 +2,18 @@
 
 Welcome to the Basix website, the following ReadMe contains useful information pertaining to the website.
 
+**Contents**
+ - Decription
+ - Wireframes
+ - Final screenshots
+ - Features
+ - Testing
+ - Deployment
+ - Credits
+
+
+------
+
 ## Gitpod Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
@@ -10,49 +22,94 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 ------
 
-## Release History
+## Description
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+User Story:  This site is aimed at people interested in natural skin care. Specifically a cream designed for dry skin conditions, a cream for dry feet, and a skin oil for helping to remove marks and scars.  This site displays 3 products on the home page, the customer can read about the products and can click through to purchase them on Amazon.co.uk where they can purchase the item.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
 ------
 
-## FAQ about the uptime script
+## Wireframes
 
-**Why have you added this script?**
+The site plan was created in Balsamiq at the inception of the project.  Screenshots as follows:
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+------
 
-**How will this affect me?**
+## Final screenshots on various devices
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+Final screenshots created on https://ui.dev/amiresponsive as follows:
+
+
+------
+
+## Features
+
+- Header includes logo with link to home page, fixed to the top of the page, and appears on every page.
+- Menu items highlight green when hovered over and underlines when on a page is selected / visited.
+- Hero Image on each page has an overlay box, styled and positioned in the same place for consistency.
+- Product section contains 3 images, consistently styled, with an overflow scrollbar where content is bigger than the container.  This content gives the visitor more information on the product.  
+- Amazon Buy button with a working link to each product, styled like the Amazon buy button.  When hovering over the Buy Button, the button turns green matching the sites color scheme and signalling GO.
+- Icons have been used to enhance the site design such as a leaf icon in place of bullets, and an envelope icon on the contact page.
+- Footer is styled with the site’s color scheme, using clickable social media icons, separated by a horizontal line.
+- About Page – styled to match the home page with hero image, features overlay box and paragraphs explaining About the people behind Basix and why this product has been chosen, which gives the visitor reassurance.
+- Contact Page - styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch
+- Accessibility – throughout the site contrasting colors have been used.  The corporate green from the logo has been used for consistency, against a white background for ease of readability.  Photos have alt tags applied
+- Features Ideas for the Future
+1.  Styling of overflow scroll-bar to match the corporate green
+2.  Animation of hero image
+3.  Add a video testimonial page
+
+## Testing
+
+- Manual testing – all links, menu, logo, buy-buttons, contact form submit and reset and social icons are linked correctly and open in a new page.
+- Screen size check – the site was checked for responsiveness using Chrome Dev Tools
+
+**Bugs resolved:**
+
+- Hero image overflow: hidden did not work.  Resolved with setting z-index.
+- Menu did not center to 1500px when screen size is wider than 1500px – resolved with applying max-width, margin and float to body section.
+- All product images did not center on responsive wide – resolved by adding display: flex to image-container, adjusted image scale to 90%.
+- Tissue Oil Div did not align with Kigelia and Foot food when stacked – resolved by changing media query for individual products sections to display: inline-block.
+- Footer width of 1500px does not align with hero image of 1500px – resolved by changing hr width to 100%.
+
+**Unresolved bugs:**
+
+- There are no unresolved bugs
+
+**Validator testing**
+
+- W3C HTML Validator: 
+- W3C CSS Validator (Jigsaw):
+- Accessibility
+- Colors and fonts chosen are accessible - checked via Lighthouse in chrome dev tools 
+
+(add a screen shot)
+
+
+## Deployment
+
+The following steps were taken to deploy the site:
+
+
+## Credits
+
+- Code used for footer section borrowed and modified from Code Institute Love Running project
+- Code used for overlay text section borrowed and modified from Code Institute Love Running project
+- Media Images credits: 
+1. Hero image - Photo by Katherine Hanlon on Unsplash, and Photo by David Marcu on Unsplash
+2. Google Fonts - Roboto
+3. FontAwesome icons - Leaf icon by Fontawesome - https://fontawesome.com/icons/leaf-heart?s=thin&f=classic
+4. Social icons made by Pixel perfect from www.flaticon.com
+- Content & Images owned by Lombardi & Smith Limited, www.lombardismith.com, (Director: Russell Smith)
+
+
+
+
+
+
+
+
+
 
 - An ID that is randomly generated each time the workspace is started.
 - The current date and time
