@@ -11,6 +11,7 @@ body {
     font-family: Roboto, sans-serif;
     font-weight: 300;
     color:#2b7d00;
+    width: auto;
     max-width: 1500px;
     margin: 0 auto;
     float: none;
@@ -20,19 +21,15 @@ body {
 /* Header & Nav Section */
 
 header {
-    position: fixed;
-    width: 100%;
-    max-width: 1500px;
+    position: sticky;
+    width: 100%;   
+    height: 75px;
     top: 0;
     background-color: white;
     z-index: 2;
 }
 
-#header-container {
-    width: 100%;
-    max-width: 1500px;
-    margin: 0 auto;
-}
+
 
 #logo {
     height: 60px;
@@ -51,15 +48,10 @@ header {
     float: right;
 }
 
-hr {
-    border-top: 1px solid #2b7d00;
-    width: 100%;
-    margin: 0 auto;
-}
-
 #menu, #logo {
     line-height: 75px;
 }
+
 
 #menu a {
     text-decoration: none;
@@ -86,9 +78,9 @@ hr {
 
 #hero-image {
    height: 600px;
-   width: 100%;  
+   width: auto;
    background: url("../images/hero-image-home5.jpg") no-repeat center center;
-   margin-top: 80px;
+   margin-top: 10px;
    overflow: hidden;    
 }
 
@@ -126,7 +118,6 @@ hr {
 
 #product-section {
     width: 100%;
-    max-width: 1500px;
     height: 1200px;
     margin: 0 auto;
 }
@@ -486,24 +477,28 @@ footer h3 {
 
 /* Screen size >1500 px wide */
     
-@media screen and (min-width: 1500px) {
-             
-    #hero-section {
-        width: 1500px;
-        position: relative;
-        margin: 0 auto;                      
-    }
-        
-    #hero-image {
-        width: 1500px;              
-    } 
-}
 
 /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
-  
+    header {
+        height: 125px;
+    }
+    
+    #menu {
+        clear: left;      /*  drops the menu items to a new line  */
+        float: left;
+        margin: 20px 0 20px 30px;
+        line-height: 25px; 
+    } 
+
+    #hero-image {
+        height: 600px;
+        background: url("../images/hero-image-home5.jpg") no-repeat center center;
+        overflow: hidden;    
+     }
+      
     #product-section {
-        width: 60%;
+        width: 75%;
         height: 1200px;
         margin: 0 auto;
     }
@@ -512,7 +507,9 @@ footer h3 {
         width: 100%;
         display: inline-block;
         padding: 0;
-        margin-top: 10px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        
     }
 
     #tissue-oil {
@@ -520,16 +517,17 @@ footer h3 {
     }
 }
 
-/* Screen size <750 px wide */
+/* Screen size <750 px wide 
 
 @media screen and (max-width: 750px) {
     
     #menu {
-        clear: left;      /*  drops the menu items to a new line  */
+        clear: left;      
         float: left;
         margin: 20px 0 20px 30px;
         line-height: 25px;
     }
 }
+*/
 
    
