@@ -33,12 +33,15 @@ User Story:  This site is aimed at people interested in natural skin care. Speci
 
 The site plan was created in Balsamiq at the inception of the project.  Screenshots as follows:
 
+(add a screen shot)
+
 ------
 
 ## Final screenshots on various devices
 
 Final screenshots created on https://ui.dev/amiresponsive as follows:
 
+(add a screen shot)
 
 ------
 
@@ -58,6 +61,8 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 1.  Styling of overflow scroll-bar to match the corporate green
 2.  Animation of hero image
 3.  Add a video testimonial page
+
+------
 
 ## Testing
 
@@ -85,11 +90,17 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 (add a screen shot)
 
+------
 
 ## Deployment
 
 The following steps were taken to deploy the site:
 
+1. (add steps)
+2. (add steps)
+3. (add steps)
+
+------
 
 ## Credits
 
@@ -102,6 +113,8 @@ The following steps were taken to deploy the site:
 4. Social icons made by Pixel perfect from www.flaticon.com
 - Content & Images owned by Lombardi & Smith Limited, www.lombardismith.com, (Director: Russell Smith)
 
+
+------
 
 
 
