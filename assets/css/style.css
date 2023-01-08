@@ -95,24 +95,38 @@ hr {
        
 }
 
-#hero-image-overlay-text {
-    background-color: rgba(43,125,0,0.6);
-    width: 400px;
-    height: 100px;
-    color: white;
-    font-size: 90%;
+ 
 
-    padding: 10px;
-    bottom: 150px;
-    right: 150px;
-    position: absolute;
-    
+#hero-image-overlay-text {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(43,125,0,0.6);  
+    width: 400px;
+    height: 200px;
+    position: absolute;  
+    left: 10%;           
+    bottom: 5%;
+    padding: 30px;
+}
+
+#h1-overlay {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #list-overlay {
-    margin-left: 30px;
-    font-size: 110%;
+    margin-left: 20px;
+    font-size: 140%;
+    list-style: none;
+    
 }
+
+#list-overlay i {   
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
 
 /* Product Section */
 
@@ -507,18 +521,7 @@ hr {
     /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
     
-    #hero-image-overlay-text {
-        background-color: rgba(43,125,0,0.6);
-        width: 400px;
-        height: 100px;
-        color: white;
-        font-size: 90%;
-    
-        padding: 10px;
-        
-        margin: 0 auto;
-        
-    }
+   
        
     #product-section {
         width: 60%;
@@ -542,12 +545,7 @@ hr {
     
      /* Screen size <750 px wide */
      @media screen and (max-width: 750px) {
-     #hero-image-overlay-text {
-        left: 0;
-        bottom: 0;
-
-     }
-
+    
      #menu {
         clear: left;      /*  drops the menu items to a new line  */
         float: left;
@@ -558,13 +556,4 @@ hr {
 
     }
 
-    /* Screen size <400 px wide */
-     @media screen and (max-width: 400px) {
-     #hero-image-overlay-text {
-        left: 0;
-        bottom: 0;
-        width:100%;
-        font-size: 75%;
-
-     }
-    }
+   
