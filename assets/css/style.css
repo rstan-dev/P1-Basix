@@ -138,10 +138,11 @@ hr {
     }
 
 #three-choices {
-    margin: 30px 0 30px 0;
-    font-size: 250%;
+    margin: 50px 0 50px 0;
+    font-size: 350%;
     text-align: center;
     text-transform: uppercase;
+    font-weight: 1200;
 }
 
 #kigelia {
