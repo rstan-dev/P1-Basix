@@ -81,9 +81,7 @@ hr {
     width: 100%;
     overflow: hidden;
     position: relative;
-    margin-bottom: 30px;
-    
-        
+    margin-bottom: 30px;     
 }
 
 #hero-image {
@@ -91,11 +89,8 @@ hr {
    width: 100%;  
    background: url("../images/hero-image-home5.jpg") no-repeat center center;
    margin-top: 80px;
-   overflow: hidden;
-       
+   overflow: hidden;    
 }
-
- 
 
 #hero-image-overlay-text {
     margin: 150px 10% 0 0;
@@ -119,7 +114,6 @@ hr {
     margin-left: 20px;
     font-size: 140%;
     list-style: none;
-    
 }
 
 #list-overlay i {   
@@ -135,7 +129,7 @@ hr {
     max-width: 1500px;
     height: 1200px;
     margin: 0 auto;
-    }
+}
 
 #three-choices {
     margin: 50px 0 50px 0;
@@ -153,7 +147,6 @@ hr {
     width: 30%;
     height: 1200px;
     margin-left: 2%;
-    
 }
 
 #tissue-oil {
@@ -174,259 +167,252 @@ hr {
     width: 30%;
     height: 1200px;
     margin: 0 2% 0 2%;
-    }
+}
 
-    /*  Kigelia Product Section  */
+/*  Kigelia Product Section  */
 
-    #kigelia-image-container {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-    }
+#kigelia-image-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
 
-    #kigelia-image {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        scale: 90%;
+#kigelia-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    scale: 90%;
+}
 
-    }
-
-    #kigelia-text {
-        height: 50%;
-        text-align: center;
-        font-size: 100%;
-        margin: 0 0 30px 0;
-        overflow: auto;
-    }
-
-    #kigelia-text h3, h4 {
-        padding-top: 5px;
-        padding-bottom: 15px;
-        margin: 0 10px 20px 20px;
-    }
-
-    #kigelia-text-list {
-        margin: 0 10px 20px 20px;
-        text-align: left;
-        list-style-type: none;
-
-    }
-
-    #kigelia-text-list > li {
-        padding-bottom: 15px;
-
-    }
-
-    #kigelia-button-container {
-        margin-top: 20px;
-        height: 10%;
-        width: 100%;
-        text-align: center;
-    }
-
-    #kigelia-button {
-        padding: 10px 40px;
-        background-color: #ff9f3f;
-        border-radius: 30px;
-    }
-
-    #kigelia-button:hover {
-        background-color: #2b7d00;
-        color: white
-    }
-
-
-     /*  Foot Food Product Section  */
-
-     #foot-food-image-container {
-        width: 100%;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-    }
-
-    #foot-food-image {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        scale: 90%;
+#kigelia-text {
+    height: 50%;
+    text-align: center;
+    font-size: 100%;
+    margin: 0 0 30px 0;
+    overflow: auto;
         
-    }
+}
 
-    #foot-food-text {
-        height: 50%;
-        text-align: center;
-        font-size: 100%;
-        margin: 0 0 30px 0;
-        overflow: auto;
-    }
+#kigelia-text h3, h4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0 10px 20px 20px;
+}
 
-    #foot-food-text h3, h4 {
-        padding-top: 5px;
-        padding-bottom: 15px;
-        margin: 0 10px 20px 20px;
-    }
+#kigelia-text-list {
+    margin: 0 10px 20px 20px;
+    text-align: left;
+    list-style-type: none;
 
-    #foot-food-text-list {
-        margin: 0 10px 20px 20px;
-        text-align: left;
-        list-style-type: none;
+}
 
-    }
+#kigelia-text-list > li {
+    padding-bottom: 15px;
 
-    #foot-food-text-list > li {
-        padding-bottom: 15px;
+}
 
-    }
+#kigelia-button-container {
+    margin-top: 20px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
 
-    #foot-food-button-container {
-        margin-top: 20px;
-        height: 10%;
-        width: 100%;
-        text-align: center;
-    }
+#kigelia-button {
+    padding: 10px 40px;
+    background-color: #ff9f3f;
+    border-radius: 30px;
+}
 
-    #foot-food-button {
-        padding: 10px 40px;
-        background-color: #ff9f3f;
-        border-radius: 30px;
-    }
+#kigelia-button:hover {
+    background-color: #2b7d00;
+    color: white
+}
 
-    #foot-food-button:hover {
-        background-color: #2b7d00;
-        color: white
-    }
 
-    /*  Tissue Oil Product Section  */
+/*  Foot Food Product Section  */
 
-    #tissue-oil-image-container {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-        display: flex;
-    }
+#foot-food-image-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
 
-    #tissue-oil-image {
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        scale: 90%;
+#foot-food-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    scale: 90%;    
+}
 
-    }
+#foot-food-text {
+    height: 50%;
+    text-align: center;
+    font-size: 100%;
+    margin: 0 0 30px 0;
+    overflow: auto;
+}
 
-    #tissue-oil-text {
-        height: 50%;
-        text-align: center;
-        font-size: 100%;
-        margin: 0 0 30px 0;
-        overflow: auto;
-    }
+#foot-food-text h3, h4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0 10px 20px 20px;
+}
 
-    #tissue-oil-text h3, h4 {
-        padding-top: 5px;
-        padding-bottom: 15px;
-        margin: 0 10px 20px 20px;
-    }
+#foot-food-text-list {
+    margin: 0 10px 20px 20px;
+    text-align: left;
+    list-style-type: none;
+}
 
-    #tissue-oil-text-list {
-        margin: 0 10px 30px 20px;
-        text-align: left;
-        list-style-type: none;
+#foot-food-text-list > li {
+    padding-bottom: 15px;
+}
 
-    }
+#foot-food-button-container {
+    margin-top: 20px;
+       height: 10%;
+    width: 100%;
+    text-align: center;
+}
 
-    #tissue-oil-text-list > li {
-        padding-bottom: 10px;
+#foot-food-button {
+    padding: 10px 40px;
+    background-color: #ff9f3f;
+    border-radius: 30px;
+}
 
-    }
+#foot-food-button:hover {
+    background-color: #2b7d00;
+    color: white
+}
 
-    #tissue-oil-button-container {
-        margin-top: 20px;
-        height: 10%;
-        width: 100%;
-        text-align: center;
-    }
+/*  Tissue Oil Product Section  */
 
-    #tissue-oil-button {
-        padding: 10px 40px;
-        background-color: #ff9f3f;
-        border-radius: 30px;
-    }
+#tissue-oil-image-container {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
 
-    #tissue-oil-button:hover {
-        background-color: #2b7d00;
-        color: white
-    }
+#tissue-oil-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    scale: 90%;
+}
 
-    /* Footer Section */
+#tissue-oil-text {
+    height: 50%;
+    text-align: center;
+    font-size: 100%;
+    margin: 0 0 30px 0;
+    overflow: auto;
+}
 
-   footer {
-        height: 75px;
-        width: 100%;
-        max-width: 1500px;
-        margin-top: 150px;
-    }
+#tissue-oil-text h3, h4 {
+    padding-top: 5px;
+    padding-bottom: 15px;
+    margin: 0 10px 20px 20px;
+}
 
-    #footer-hr {
-        margin-left: -50%;
-        width: 200%;
-    }
+#tissue-oil-text-list {
+    margin: 0 10px 30px 20px;
+    text-align: left;
+    list-style-type: none;
+}
 
-    footer h3 {
-        text-align: center;
-        margin-top: 30px;
-    }
+#tissue-oil-text-list > li {
+    padding-bottom: 10px;
+}
+
+#tissue-oil-button-container {
+    margin-top: 20px;
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#tissue-oil-button {
+    padding: 10px 40px;
+    background-color: #ff9f3f;
+    border-radius: 30px;
+}
+
+#tissue-oil-button:hover {
+    background-color: #2b7d00;
+    color: white
+}
+
+/* Footer Section */
+
+footer {
+    height: 75px;
+    width: 100%;
+    max-width: 1500px;
+    margin-top: 150px;
+}
+
+#footer-hr {
+    margin-left: -50%;
+    width: 200%;
+}
+
+footer h3 {
+    text-align: center;
+    margin-top: 30px;
+}
     
-    .social-networks {
-        text-align: center;
-        }
+.social-networks {
+    text-align: center;
+}
     
-    .social-networks > li {
-        display: inline;
-    }
+.social-networks > li {
+    display: inline;
+}
     
-    .social-networks i {
-        font-size: 300%;
-        margin: 1%;
-        padding: 1%;
-        color: #2b7d00;
-        
-    }
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 1%;
+    color: #2b7d00;    
+}
 
-    /* About Page */
+/* About Page */
 
-    #about-section {
-        width: 90%;
-        height: auto;
-        margin: 0 auto;
-    }
+#about-section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
 
-    /* About Us */
-    #about-us h2 {
-        margin-bottom: 10px;
-        font-size: 200%;
-    }
+/* About Us */
+#about-us h2 {
+    margin-bottom: 10px;
+    font-size: 200%;
+}
 
-    #about-us p {
-        margin-bottom: 15px;
-    }
+#about-us p {
+    margin-bottom: 15px;
+}
 
-    #why-basix {
-        margin-top: 40px;
-    }
+#why-basix {
+    margin-top: 40px;
+}
 
-    #why-basix h2 {
-        margin-bottom: 10px;
-        font-size: 200%;
-    }
+#why-basix h2 {
+    margin-bottom: 10px;
+    font-size: 200%;
+}
 
-    #why-basix p {
-        margin-bottom: 15px;
-    }
+#why-basix p {
+    margin-bottom: 15px;
+}
 
-    /* Form */
+/* Form */
 
 .contact-form {
     margin: 150px 10% 0 0;
@@ -436,8 +422,7 @@ hr {
     position: absolute;  /*  fixes this to the page  */
     left: 10%;           /* positions it in from left by 10% */
     bottom: 5%;
-    padding: 30px;
-    
+    padding: 30px;   
 }
 
 .contact-form h2 {
@@ -453,7 +438,6 @@ hr {
     margin: 5px 0 20px 0;   /* sets the margins around the text input */
     border: 1px solid #fff;
     border-radius: 2px;
-
 }
 
 .text-input:hover {
@@ -469,7 +453,6 @@ hr {
     background-color: white;
     color: #2b7d00;
     display: inline;   /* drops the button below the text */
-
 }
 
 .reset-button {
@@ -481,7 +464,6 @@ hr {
     background-color: white;
     color: #2b7d00;
     display: inline;   /* drops the button below the text */
-
 }
 
 .send-button:hover {
@@ -500,30 +482,26 @@ hr {
     margin-bottom: 20px;
 }
 
+/* Media Queries */
 
-
-    /* Media Queries */
-
-    /* Screen size >1500 px wide */
+/* Screen size >1500 px wide */
     
-    @media screen and (min-width: 1500px) {
+@media screen and (min-width: 1500px) {
              
-        #hero-section {
-            width: 1500px;
-            position: relative;
-            margin: 0 auto;                      
-        }
-        
-        #hero-image {
-            width: 1500px;              
-        } 
+    #hero-section {
+        width: 1500px;
+        position: relative;
+        margin: 0 auto;                      
     }
+        
+    #hero-image {
+        width: 1500px;              
+    } 
+}
 
-    /* Screen size <1050 px wide */
+/* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
-    
-   
-       
+  
     #product-section {
         width: 60%;
         height: 1200px;
@@ -540,21 +518,18 @@ hr {
     #tissue-oil {
         margin-bottom: 50px;
     }
+}
 
-   
-    }
+/* Screen size <750 px wide */
+
+@media screen and (max-width: 750px) {
     
-     /* Screen size <750 px wide */
-     @media screen and (max-width: 750px) {
-    
-     #menu {
+    #menu {
         clear: left;      /*  drops the menu items to a new line  */
         float: left;
         margin: 20px 0 20px 30px;
         line-height: 25px;
-       }
-
-
     }
+}
 
    
