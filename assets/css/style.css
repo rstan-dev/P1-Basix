@@ -17,7 +17,7 @@ body {
     float: none;
 }
 
-/* Header & Nav Section */
+/* Header & Nav Section (Modified code from Code Institute Love Running Project)*/
 header {
     position: sticky;
     width: 100%;   
@@ -325,7 +325,7 @@ header {
     color: white
 }
 
-/* Footer Section */
+/* Footer Section (Modified code from Code Institute Love Running Project)*/
 footer {
     height: 75px;
     width: 100%;
@@ -390,7 +390,7 @@ footer h3 {
     font-size: 150%;
 }
 
-/* Form */
+/* Form   (Modified code from Code Institute Love Running Project)*/
 .contact-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -530,4 +530,4 @@ footer h3 {
     .text-input {
         width: 80%;
     }
-   
+}
