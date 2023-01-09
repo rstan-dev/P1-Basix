@@ -17,9 +17,7 @@ body {
     float: none;
 }
 
-
 /* Header & Nav Section */
-
 header {
     position: sticky;
     width: 100%;   
@@ -28,8 +26,6 @@ header {
     background-color: white;
     z-index: 2;
 }
-
-
 
 #logo {
     height: 60px;
@@ -51,7 +47,6 @@ header {
 #menu, #logo {
     line-height: 75px;
 }
-
 
 #menu a {
     text-decoration: none;
@@ -113,9 +108,7 @@ header {
     margin-bottom: 10px;
 }
 
-
 /* Product Section */
-
 #product-section {
     width: 100%;
     height: 1200px;
@@ -161,7 +154,6 @@ header {
 }
 
 /*  Kigelia Product Section  */
-
 #kigelia-image-container {
     width: 90%;
     height: auto;
@@ -179,10 +171,9 @@ header {
 #kigelia-text {
     height: 50%;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
     margin: 0 0 30px 0;
-    overflow: auto;
-        
+    overflow: auto;     
 }
 
 #kigelia-text h3, h4 {
@@ -195,12 +186,10 @@ header {
     margin: 0 10px 20px 20px;
     text-align: left;
     list-style-type: none;
-
 }
 
 #kigelia-text-list > li {
     padding-bottom: 15px;
-
 }
 
 #kigelia-button-container {
@@ -214,6 +203,7 @@ header {
     padding: 10px 40px;
     background-color: #ff9f3f;
     border-radius: 30px;
+    font-size: 120%;
 }
 
 #kigelia-button:hover {
@@ -221,9 +211,7 @@ header {
     color: white
 }
 
-
 /*  Foot Food Product Section  */
-
 #foot-food-image-container {
     width: 100%;
     height: auto;
@@ -241,7 +229,7 @@ header {
 #foot-food-text {
     height: 50%;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
     margin: 0 0 30px 0;
     overflow: auto;
 }
@@ -273,6 +261,7 @@ header {
     padding: 10px 40px;
     background-color: #ff9f3f;
     border-radius: 30px;
+    font-size: 120%;
 }
 
 #foot-food-button:hover {
@@ -281,7 +270,6 @@ header {
 }
 
 /*  Tissue Oil Product Section  */
-
 #tissue-oil-image-container {
     width: 90%;
     height: auto;
@@ -299,7 +287,7 @@ header {
 #tissue-oil-text {
     height: 50%;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
     margin: 0 0 30px 0;
     overflow: auto;
 }
@@ -331,6 +319,7 @@ header {
     padding: 10px 40px;
     background-color: #ff9f3f;
     border-radius: 30px;
+    font-size: 120%;
 }
 
 #tissue-oil-button:hover {
@@ -339,7 +328,6 @@ header {
 }
 
 /* Footer Section */
-
 footer {
     height: 75px;
     width: 100%;
@@ -373,7 +361,6 @@ footer h3 {
 }
 
 /* About Page */
-
 #about-section {
     width: 90%;
     height: auto;
@@ -404,7 +391,6 @@ footer h3 {
 }
 
 /* Form */
-
 .contact-form {
     margin: 150px 10% 0 0;
     color: #fff;
@@ -454,7 +440,7 @@ footer h3 {
     font-size: 100%;
     background-color: white;
     color: #2b7d00;
-    display: inline;   /* drops the button below the text */
+    display: inline; 
 }
 
 .send-button:hover {
@@ -474,10 +460,6 @@ footer h3 {
 }
 
 /* Media Queries */
-
-/* Screen size >1500 px wide */
-    
-
 /* Screen size <1050 px wide */
 @media screen and (max-width: 1050px) {
     header {
@@ -487,7 +469,7 @@ footer h3 {
     #menu {
         clear: left;      /*  drops the menu items to a new line  */
         float: left;
-        margin: 20px 0 20px 30px;
+        margin: 20px 0 0 30px;
         line-height: 25px; 
     } 
 
@@ -508,8 +490,7 @@ footer h3 {
         display: inline-block;
         padding: 0;
         margin: 0 auto;
-        margin-bottom: 30px;
-        
+        margin-bottom: 30px;   
     }
 
     #tissue-oil {
@@ -517,17 +498,5 @@ footer h3 {
     }
 }
 
-/* Screen size <750 px wide 
-
-@media screen and (max-width: 750px) {
-    
-    #menu {
-        clear: left;      
-        float: left;
-        margin: 20px 0 20px 30px;
-        line-height: 25px;
-    }
-}
-*/
 
    
