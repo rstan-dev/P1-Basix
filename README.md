@@ -33,7 +33,12 @@ User Story:  This site is aimed at people interested in natural skin care. Speci
 
 The site plan was created in Balsamiq at the inception of the project.  Screenshots as follows:
 
-(add a screen shot)
+Home:
+<img src="assets/readme-images/w-f-basix-home-page.png">
+About:
+<img src="assets/readme-images/w-f-basix-about-page.png">
+Contact:
+<img src="assets/readme-images/w-f-basix-contact-page.png">
 
 ------
 
@@ -49,13 +54,19 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 - Header includes logo with link to home page, fixed to the top of the page, and appears on every page.
 - Menu items highlight green when hovered over and underlines when on a page is selected / visited.
+<img src="assets/readme-images/header.jpg">
 - Hero Image on each page has an overlay box, styled and positioned in the same place for consistency.
+<img src="assets/readme-images/overlay-text-box.jpg">
 - Product section contains 3 images, consistently styled, with an overflow scrollbar where content is bigger than the container.  This content gives the visitor more information on the product.  
 - Amazon Buy button with a working link to each product, styled like the Amazon buy button.  When hovering over the Buy Button, the button turns green matching the sites color scheme and signalling GO.
+<img src="assets/readme-images/product-section.jpg">
 - Icons have been used to enhance the site design such as a leaf icon in place of bullets, and an envelope icon on the contact page.
 - Footer is styled with the site’s color scheme, using clickable social media icons, separated by a horizontal line.
+<img src="assets/readme-images/footer-section.jpg">
 - About Page – styled to match the home page with hero image, features overlay box and paragraphs explaining About the people behind Basix and why this product has been chosen, which gives the visitor reassurance.
-- Contact Page - styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch
+<img src="assets/readme-images/about-page.jpg">
+- Contact Page - styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch.
+<img src="assets/readme-images/contact-page.jpg">
 - Accessibility – throughout the site contrasting colors have been used.  The corporate green from the logo has been used for consistency, against a white background for ease of readability.  Photos have alt tags applied
 - Features Ideas for the Future
 1.  Styling of overflow scroll-bar to match the corporate green
@@ -67,7 +78,7 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 ## Testing
 
 - Manual testing – all links, menu, logo, buy-buttons, contact form submit and reset and social icons are linked correctly and open in a new page.
-- Screen size check – the site was checked for responsiveness using Chrome Dev Tools
+- Screen size check – the site was checked for responsiveness using Chrome Dev Tools, responsive change to lay out tested at 1050px.
 
 **Bugs resolved:**
 
@@ -75,7 +86,8 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 - Menu did not center to 1500px when screen size is wider than 1500px – resolved with applying max-width, margin and float to body section.
 - All product images did not center on responsive wide – resolved by adding display: flex to image-container, adjusted image scale to 90%.
 - Tissue Oil Div did not align with Kigelia and Foot food when stacked – resolved by changing media query for individual products sections to display: inline-block.
-- Footer width of 1500px does not align with hero image of 1500px – resolved by changing hr width to 100%.
+- Footer width of 1500px did not align with hero image of 1500px – resolved by changing hr width to 100%.
+- Additional white space to the right hand side was causing responsive issues and excess scrolling. resolved by removing the footers hr completely.
 
 **Unresolved bugs:**
 

@@ -165,7 +165,6 @@ header {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    scale: 90%;
 }
 
 #kigelia-text {
@@ -222,8 +221,7 @@ header {
 #foot-food-image {
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
-    scale: 90%;    
+    margin: 0 auto; 
 }
 
 #foot-food-text {
@@ -281,7 +279,6 @@ header {
     max-width: 100%;
     height: auto;
     margin: 0 auto;
-    scale: 90%;
 }
 
 #tissue-oil-text {
