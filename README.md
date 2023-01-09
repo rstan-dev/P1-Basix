@@ -97,8 +97,7 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 - W3C HTML Validator: 
 - W3C CSS Validator (Jigsaw):
-- Accessibility
-- Colors and fonts chosen are accessible - checked via Lighthouse in chrome dev tools 
+- Accessibility: Colors and fonts chosen are accessible - checked via Lighthouse in chrome dev tools 
 
 (add a screen shot)
 
@@ -108,9 +107,9 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 The following steps were taken to deploy the site:
 
-1. (add steps)
-2. (add steps)
-3. (add steps)
+1. Project was pushed to GitHub
+2. Under settings/pages, main branch was selected as the source
+3. Link to live site: https://rstan-dev.github.io/P1-Basix/
 
 ------
 

@@ -367,11 +367,12 @@ footer h3 {
 /* About Us */
 #about-us h2 {
     margin-bottom: 10px;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #about-us p {
     margin-bottom: 15px;
+    font-size: 150%;
 }
 
 #why-basix {
@@ -380,11 +381,12 @@ footer h3 {
 
 #why-basix h2 {
     margin-bottom: 10px;
-    font-size: 200%;
+    font-size: 250%;
 }
 
 #why-basix p {
     margin-bottom: 15px;
+    font-size: 150%;
 }
 
 /* Form */
@@ -457,7 +459,7 @@ footer h3 {
 }
 
 /* Media Queries */
-/* Screen size <1050 px wide */
+/* Screen size <1050px wide */
 @media screen and (max-width: 1050px) {
     header {
         height: 125px;
@@ -495,5 +497,36 @@ footer h3 {
     }
 }
 
+/* Screen size 550px wide */
+@media screen and (max-width: 550px) {
+    #hero-image-overlay-text {
+        width: 100%;
+        height: auto;
+        left: 0;
+        bottom: 0;
+    }
 
+    #h1-overlay {
+        font-size: 175%;
+        text-align: left;
+    }
+
+    #list-overlay {
+        font-size: 125%;
+    }
+
+    .contact-form {
+        width: 100%;
+        height: auto;
+        left: 0;
+        bottom: 0;
+    }
+
+    .contact-form h2 {
+        font-size: 100%;
+    }
+
+    .text-input {
+        width: 80%;
+    }
    
