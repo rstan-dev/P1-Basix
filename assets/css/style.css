@@ -202,8 +202,7 @@ header {
     padding: 10px 40px;
     background-color: #ff9f3f;
     border-radius: 30px;
-    font-size: 120%;
-    
+    font-size: 120%; 
 }
 
 #kigelia-button:hover {
@@ -365,7 +364,7 @@ footer h3 {
     margin: 0 auto;
 }
 
-/* About Us */
+/* About Us Text */
 #about-us h2 {
     margin-bottom: 10px;
     font-size: 250%;
@@ -504,7 +503,8 @@ footer h3 {
         width: 100%;
         height: auto;
         left: 0;
-        bottom: 50px;
+        bottom: 100px;
+        padding: 30px 40px 30px 20px;
     }
 
     #h1-overlay {
@@ -514,6 +514,7 @@ footer h3 {
 
     #list-overlay {
         font-size: 110%;
+        margin-left: 5px;
     }
 
     .contact-form {

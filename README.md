@@ -70,25 +70,34 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 ## Features
 
 - Header includes logo with link to home page, fixed to the top of the page, and appears on every page.
-- Menu items highlight green when hovered over and underlines when on a page is selected / visited.
+- Menu items highlight green when hovered over and underlines when a page is selected / visited, so the user knows where they are at all times.
+
 <img src="assets/readme-images/header.jpg">
 
-- Hero Image on each page has an overlay box, styled and positioned in the same place for consistency.
+- Hero Image on each page has an overlay box, styled and positioned in the same place for consistency. On the Home and About page, the text contains an H1 title and bullets with a leaf icon which clearly explains to the user what the page is about.
+
 <img src="assets/readme-images/overlay-text-box.jpg">
 
-- Product section contains 3 images, consistently styled, with an overflow scrollbar where content is bigger than the container.  This content gives the visitor more information on the product.  
-- Amazon Buy button with a working link to each product, styled like the Amazon buy button.  When hovering over the Buy Button, the button turns green matching the sites color scheme and signalling GO.
+- Product section contains 3 images, consistently styled, with an overflow scrollbar where content is bigger than the container.  This content gives the user more information on the product.  
+- An Amazon Buy button appears below each product text block with a working link to each product, which opens up in a seperate page,  allowing the user to purchase the item if they so wish. This button is styled like the Amazon buy button for familiarity.  When the user hovers or clicks the Buy Button, the button turns green matching the sites color scheme and signalling GO.
+
 <img src="assets/readme-images/product-section.jpg">
+
 - Icons have been used to enhance the site design such as a leaf icon in place of bullets, and an envelope icon on the contact page.
-- Footer is styled with the site’s color scheme, using clickable social media icons, separated by a horizontal line.
+- Footer is styled with the site’s color scheme, using clickable social media icons, so the user can contact the site via various soacial media channels.
+
 <img src="assets/readme-images/footer-section.jpg">
-- About Page – styled to match the home page with hero image, features overlay box and paragraphs explaining About the people behind Basix and why this product has been chosen, which gives the visitor reassurance.
+
+- About page has been styled to match the home page with hero image, features overlay box and paragraphs explaining about the people behind Basix and why this product has been chosen, which gives the user reassurance about the company, product and brand
+.
 <img src="assets/readme-images/about-page.jpg">
-- Contact Page - styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch.
+
+- Contact Page has been styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch.
+
 <img src="assets/readme-images/contact -page.jpg">
 
-- Accessibility – throughout the site contrasting colors have been used.  The corporate green from the logo has been used for consistency, against a white background for ease of readability.  Photos have alt tags applied.
-- Features Ideas for the Future:
+- Accessibility – throughout the site contrasting colors have been used.  The corporate shade of green from the logo has been used throughout for consistency, against a white background for ease of readability.  Photos have alt tags applied.
+- Feature ideas for the Future:
 1.  Styling of overflow scroll-bar to match the corporate green
 2.  Animation of hero image
 3.  Add a video testimonial page
@@ -98,14 +107,14 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 ## Testing
 
 - Manual testing – all links, menu, logo, buy-buttons, contact form submit and reset and social icons are linked correctly and open in a new page.
-- Screen size check – the site was checked for responsiveness using Chrome Dev Tools, responsive change to lay out tested at 1050px.
+- Screen size check – the site was checked for responsiveness using Chrome Dev Tools, responsive change to lay out tested at 1050px, and at 550px down to 320px.
 
 **Bugs resolved:**
 
 - Hero image overflow: hidden did not work.  Resolved with setting z-index.
 - Menu did not center to 1500px when screen size is wider than 1500px – resolved with applying max-width, margin and float to body section.
 - All product images did not center on responsive wide – resolved by adding display: flex to image-container, adjusted image scale to 90%.
-- Tissue Oil Div did not align with Kigelia and Foot food when stacked – resolved by changing media query for individual products sections to display: inline-block.
+- Tissue Oil div did not align with Kigelia and Foot food when stacked – resolved by changing media query for individual products sections to display: inline-block.
 - Footer width of 1500px did not align with hero image of 1500px – resolved by changing hr width to 100%.
 - Additional white space to the right hand side was causing responsive issues and excess scrolling. resolved by removing the footers hr completely.
 
@@ -115,11 +124,11 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 **Validator testing**
 
-- W3C HTML Validator: No Errors found:
+- W3C HTML Validator: No errors found:
 
 <img src="assets/readme-images/w3c-html-validation.jpg">
 
-- W3C CSS Validator (Jigsaw):
+- W3C CSS Validator (Jigsaw): No errors found
 
 <img src="assets/readme-images/w3c-css-validation.jpg">
 
