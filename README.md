@@ -11,7 +11,6 @@ Welcome to the Basix website, the following ReadMe contains useful information p
  - Deployment
  - Credits
 
-
 ------
 
 ## Gitpod Reminders
@@ -59,11 +58,11 @@ Contact:
 
 ------
 
-## Final screenshots on various devices
+## Final screenshots demonstrating responisveness on various devices
 
 Final screenshots created on https://ui.dev/amiresponsive as follows:
 
-(add a screen shot)
+<img src="assets/readme-images/am-i-responsive-screenshot.jpg">
 
 ------
 
