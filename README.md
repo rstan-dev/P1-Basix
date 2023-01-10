@@ -88,13 +88,13 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 <img src="assets/readme-images/footer-section.jpg">
 
-- About page has been styled to match the home page with hero image, features overlay box and paragraphs explaining about the people behind Basix and why this product has been chosen, which gives the user reassurance about the company, product and brand
-.
-<img src="assets/readme-images/about-page.jpg">
+- About page has been styled to match the home page with hero image, features overlay box and paragraphs explaining about the people behind Basix and why this product has been chosen, which gives the user reassurance about the company, product and brand.
+
+<img src="assets/readme-images/about-feature.jpg">
 
 - Contact Page has been styled to match the home page with the overlay box containing a nicely styled contact form with reset button allowing the visitor to get in touch.
 
-<img src="assets/readme-images/contact -page.jpg">
+<img src="assets/readme-images/contact-us-feature.jpg">
 
 - Accessibility – throughout the site contrasting colors have been used.  The corporate shade of green from the logo has been used throughout for consistency, against a white background for ease of readability.  Photos have alt tags applied.
 - Feature ideas for the Future:
