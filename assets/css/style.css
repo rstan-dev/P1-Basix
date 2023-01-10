@@ -504,16 +504,16 @@ footer h3 {
         width: 100%;
         height: auto;
         left: 0;
-        bottom: 0;
+        bottom: 50px;
     }
 
     #h1-overlay {
-        font-size: 175%;
+        font-size: 150%;
         text-align: left;
     }
 
     #list-overlay {
-        font-size: 125%;
+        font-size: 110%;
     }
 
     .contact-form {

@@ -26,7 +26,6 @@ To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the ter
 
 User Story:  This site is aimed at people interested in natural skin care. Specifically a cream designed for dry skin conditions, a cream for dry feet, and a skin oil for helping to remove marks and scars.  This site displays 3 products on the home page, the customer can read about the products and can click through to purchase them on Amazon.co.uk where they can purchase the item.
 
-
 ------
 
 ## Wireframes
@@ -41,6 +40,22 @@ About:
 
 Contact:
 <img src="assets/readme-images/w-f-basix-contact-page.png">
+
+------
+
+## Final Design
+
+The webiste was designed to very closely resemble the original wire-frame plan:
+
+<img src="assets/readme-images/home-page-screenshot.jpg">
+
+About:
+
+<img src="assets/readme-images/about-page-screenshot.jpg">
+
+Contact:
+
+<img src="assets/readme-images/contact-page-screenshot.jpg">
 
 ------
 
@@ -100,8 +115,14 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 **Validator testing**
 
-- W3C HTML Validator: 
+- W3C HTML Validator: No Errors found:
+
+<img src="assets/readme-images/w3c-html-validation.jpg">
+
 - W3C CSS Validator (Jigsaw):
+
+<img src="assets/readme-images/w3c-css-validation.jpg">
+
 - Accessibility: Colors and fonts chosen are accessible - checked via Lighthouse in chrome dev tools:
 
 Desktop:
@@ -124,8 +145,9 @@ The following steps were taken to deploy the site:
 
 ## Credits
 
+- Code used for header and hero section and overlay text, borrowed and modified from Code Institute Love Running project 
 - Code used for footer section borrowed and modified from Code Institute Love Running project
-- Code used for overlay text section borrowed and modified from Code Institute Love Running project
+- Form dump https://formdump.codeinstitute.net/
 - Media Images credits: 
 1. Hero image - Photo by Katherine Hanlon on Unsplash, and Photo by David Marcu on Unsplash
 2. Google Fonts - Roboto
