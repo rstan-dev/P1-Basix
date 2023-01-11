@@ -129,7 +129,7 @@ header {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1200px;
+    height: 1250px;
     margin-left: 2%;
  }
 
@@ -139,7 +139,7 @@ header {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1200px;
+    height: 1250px;
     margin-left: 2%;
 }
 
@@ -149,7 +149,7 @@ header {
     border-style: solid;
     border-color: #2b7d00;
     width: 30%;
-    height: 1200px;
+    height: 1250px;
     margin: 0 2% 0 2%;
 }
 
@@ -157,7 +157,7 @@ header {
 #kigelia-image-container {
     width: 90%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
 }
 
@@ -214,7 +214,7 @@ header {
 #foot-food-image-container {
     width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
 }
 
@@ -271,7 +271,7 @@ header {
 #tissue-oil-image-container {
     width: 90%;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
 }
 

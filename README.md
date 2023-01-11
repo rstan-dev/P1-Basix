@@ -40,6 +40,10 @@ About:
 Contact:
 <img src="assets/readme-images/w-f-basix-contact-page.png">
 
+Mobile mockup:
+
+<img src="assets/readme-images/basix-mobile.png">
+
 ------
 
 ## Final Design
@@ -82,7 +86,10 @@ Final screenshots created on https://ui.dev/amiresponsive as follows:
 
 <img src="assets/readme-images/product-section.jpg">
 
-- Icons have been used to enhance the site design such as a leaf icon in place of bullets, and an envelope icon on the contact page.
+- Icons have been used to enhance the site design such as a leaf icon in place of bullets, and an envelope icon on the contact page.  A custom "X" favicon has also been included to enhance the branding.
+
+<img src="assets/readme-images/favicon-feature.jpg">
+
 - Footer is styled with the site’s color scheme, using clickable social media icons, so the user can contact the site via various soacial media channels.
 
 <img src="assets/readme-images/footer-section.jpg">
@@ -145,9 +152,13 @@ Mobile:
 
 The following steps were taken to deploy the site:
 
-1. Project was pushed to GitHub
-2. Under settings/pages, main branch was selected as the source
-3. Link to live site: https://rstan-dev.github.io/P1-Basix/
+1. The project was originally setup in an online repo on GitHub and a workspace opened in GitPod
+2. Using VSCode, the project was edited in a local dev area  
+3. Throughout development, regular commits were added with descriptive commit messages
+4. These commits were pushed to GitHUb at least daily.  
+5. Towards the end of the project, it was deployed to a live server on gitpages
+6. Under settings/pages, main branch was selected as the source
+7. Link to live site: https://rstan-dev.github.io/P1-Basix/
 
 ------
 
